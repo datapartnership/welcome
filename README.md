@@ -20,12 +20,22 @@ As part of the Development Data Partnership, you are going to have access to:
 
 Go ahead and clone the repo,
 
-| Development Partner | Documentation   | Repository    |
-|:-------------------:|:---------------:|:-------------:|
-| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
-| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | [GitHub](https://github.com/datapartnership/devdatapartnership) |
+| Development Partner | Documentation   | Package       | Repository    |
+|:-------------------:|:---------------:|:-------------:|:-------------:|
+| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](#idb) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
+| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership) |
 
 and start contributing!
+
+## Install
+
+### IDB 
+
+```sh
+   pip install -e git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
+```
+
+###
 
 ## Contribute
 
