@@ -32,7 +32,7 @@ and start contributing!
 ### IDB 
 
 ```sh
-   pip install -e git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
+   pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
 ```
 
 ###
@@ -72,7 +72,7 @@ For that we use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submod
     └── facebook
 ```
 
-You can contribute as you ould normally do by going to any subfolder/submodule,
+You can contribute as you would normally do by going to any subfolder/submodule,
 
 ```sh
     # contribute to facebook
