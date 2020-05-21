@@ -15,14 +15,17 @@ As part of the Development Data Partnership, you are going to have access to:
 
 ## Get Started
 
+Probably you are looking where to get started, so if:
+
 - You have an [account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fjoin&source=header) on GitHub.
 - You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, drop us a line at datapartership@worldbank.org.
 
-Go ahead and clone the repo,
+Go ahead, explore our documentation, [install](#install) or [clone](#cloning),
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
 | IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](#idb) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
+| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](#imf) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
 | WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership) |
 
 and start contributing!
@@ -32,7 +35,19 @@ and start contributing!
 ### IDB 
 
 ```sh
-   pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
+```
+
+### IMF 
+
+```sh
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.1#egg=ddp
+```
+
+### WBG 
+
+```sh
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git#egg=ddp
 ```
 
 ###
@@ -53,11 +68,23 @@ It requires [nbdev](https://github.com/fastai/nbdev).
     git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership-idb.git
     ```
 
+- IMF 
+
+    ```sh
+    git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership-imf.git
+    ```
+
 - WBG
 
     ```sh
     git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership.git
     ```
+
+### Pulling
+
+```sh
+git pull --recurse-submodules
+```
 
 ### Pushing
 
@@ -75,24 +102,18 @@ For that we use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submod
 You can contribute as you would normally do by going to any subfolder/submodule,
 
 ```sh
-    # contribute to facebook
-    cd notebooks/facebook
+# contribute to facebook
+cd notebooks/facebook
 
-    # create your feature branch
-    git checkout -b <my-awesome-branch>
+# create your feature branch
+git checkout -b <my-awesome-branch>
 ```
 
 Make your contributions, adding and commiting and whenever you are ready,
 
 ```sh
-    # push your contributions
-    git push
+# push your contributions
+git push
 ```
 
-As a final step, open a pull request on corresponding data partner repositoy (e.g., [Facebook](https://github.com/datapartnership/ddp-docs-facebook/pulls)).
-
-### Pulling
-
-```sh
-   git pull --recurse-submodules
-```
+As a final step, open a pull request on corresponding data partner repository (e.g., [Facebook](https://github.com/datapartnership/ddp-docs-facebook/pulls)).
