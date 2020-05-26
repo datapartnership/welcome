@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="250" height="250" src="https://raw.githubusercontent.com/datapartnership/datapartnership.org/master/static/logo.png?token=AA65TKBV3GEVINUD5ABCHHK6Y7Y4M">
+  <img width="250" height="250" src="images/logo.png">
 </p>
 
 # Welcome to the Development Data Partnership!
