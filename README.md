@@ -30,7 +30,11 @@ Go ahead, explore our documentation, [install](#install) or [clone](#cloning),
 
 and start contributing!
 
-## Install
+## [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
+
+> A curated list of the Development Data Partnership data goods and derivative works.
+
+## Installation
 
 ### IDB 
 
@@ -52,7 +56,7 @@ pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git#egg=
 
 ###
 
-## Contribute
+## Contributing
 
 Our documentation follows the [literate programming](https://en.wikipedia.org/wiki/Literate_programming) paradigm.
 
