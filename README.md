@@ -7,28 +7,26 @@
 
  > A partnership between international organizations and companies, created to facilitate the use of third-party data in research and international development.
 
-
 As part of the Development Data Partnership, you are going to have access to:
 
-- common tools and code snippets to ease your data analysis
-- curated list of exploratory notebooks for each data provider
+- code snippets and general tools to get your data analysis up and running
+- a curated list of code examples and data explorations for each data provider
+- a Python package that includes both partner-specific and general helper functions
 
 ## Get Started
 
-Probably you are looking where to get started, so if:
+Probably you are looking where to start, so if:
 
 - You have an [account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fjoin&source=header) on GitHub.
 - You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, [drop us a line](mailto:datapartnership@worldbank.org).
 
-Go ahead, explore our documentation, [install](#installation) or [contribute](#contributing),
+You're done! Explore our documentation, [install](#installation) or [contribute](#contributing),
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
 | IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](#idb) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](#imf) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership) |
-
-and start contributing!
+| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership) 
 
 ## [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
 
@@ -36,25 +34,69 @@ and start contributing!
 
 ## Installation
 
+The Partnership maintains a Python package that offers partner-specific and general helper functions.
+
+### Pre-installation
+
+Before installing the package, you will have to:
+
+- be a member of the [Partnership's team](https://github.com/orgs/datapartnership/people)
+- set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+**HTTPS**
+
+We recommend `ssh`. Alternatively, you can change your global settings to use `https` instead.
+
+```
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+git config --global credential.helper cache
+```
+
+Now you are ready to `pip install`! Make sure that you are running **Python 3.6+** and it strongly recommendeded that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
+
+Check for the [latest stable version](https://github.com/datapartnership/welcome#get-started). Alternatively, you can install the latest version.
+
 ### IDB 
 
-```sh
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1#egg=ddp
+If you are from IDB, choose a version, e.g. `export VERSION=v0.1`, and install using:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@${VERSION}#egg=ddp
 ```
 
-### IMF 
+or, install the latest version,
 
-```sh
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.1#egg=ddp
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git#egg=ddp
 ```
 
-### WBG 
+### IMF
 
-```sh
+If you are from IMF, choose a version, e.g. `export VERSION=v0.1`, and install using:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@${VERSION}#egg=ddp
+```
+
+or, install the latest version,
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git#egg=ddp
+```
+
+### WBG
+
+If you are from WBG, choose a version, e.g. `export VERSION=v0.1`, and install using:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@${VERSION}#egg=ddp
+```
+
+or, install the latest version,
+
+```
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git#egg=ddp
 ```
-
-###
 
 ## Contributing
 
@@ -69,19 +111,19 @@ It requires [nbdev](https://github.com/fastai/nbdev).
 - IDB 
 
     ```sh
-    git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership-idb.git
+    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-idb.git
     ```
 
 - IMF 
 
     ```sh
-    git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership-imf.git
+    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-imf.git
     ```
 
 - WBG
 
     ```sh
-    git clone --recurse-submodules git@git@github.com:datapartnership/devdatapartnership.git
+    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership.git
     ```
 
 ### Pulling
