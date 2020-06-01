@@ -20,30 +20,58 @@ Probably you are looking where to start, so if:
 - You have an [account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fjoin&source=header) on GitHub.
 - You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, [drop us a line](mailto:datapartnership@worldbank.org).
 
-You're done! Explore our documentation, [install](#installation) or [contribute](#contributing),
+You're done! Go ahead explore the documentation, [install](#installation), and [contribute](#contributing)!
+
+## Resources
+
+### [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
+
+> A curated list of the Development Data Partnership data goods and derivative works.
+
+### Documentation
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
-| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](#idb) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
-| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](#imf) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership) 
-
-## [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
-
-> A curated list of the Development Data Partnership data goods and derivative works.
+| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
+| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
+| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
 ## Installation
 
 The Partnership maintains a Python package that offers partner-specific and general helper functions.
 
-### Pre-installation
-
 Before installing the package, you will have to:
 
-- be a member of the [Partnership's team](https://github.com/orgs/datapartnership/people)
-- set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+1. Install **Python 3.6+**
+1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#Can-I-Use-HTTPS-Instead?).
 
-**HTTPS**
+Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
+
+### IDB 
+
+If you are from Inter-American Development Bank, install running:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git
+```
+
+### IMF
+
+If you are from International Monetary Fund, running using:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git
+```
+
+### WBG
+
+If you are from the World Bank Group, running using:
+
+```
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git
+```
+
+### Can I use HTTPS instead?
 
 We recommend `ssh`. Alternatively, you can change your global settings to use `https` instead.
 
@@ -52,50 +80,10 @@ git config --global url."https://github.com/".insteadOf "git@github.com:"
 git config --global credential.helper cache
 ```
 
-Now you are ready to `pip install`! Make sure that you are running **Python 3.6+** and it strongly recommendeded that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
-
-Check for the [latest stable version](https://github.com/datapartnership/welcome#get-started). Alternatively, you can install the latest version.
-
-### IDB 
-
-If you are from IDB, choose a version, e.g. `export VERSION=v0.1`, and install using:
+Use `git+https://github.com/` instead of `git+ssh://git@github.com/`. For example,
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@${VERSION}#egg=ddp
-```
-
-or, install the latest version,
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git#egg=ddp
-```
-
-### IMF
-
-If you are from IMF, choose a version, e.g. `export VERSION=v0.1`, and install using:
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@${VERSION}#egg=ddp
-```
-
-or, install the latest version,
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git#egg=ddp
-```
-
-### WBG
-
-If you are from WBG, choose a version, e.g. `export VERSION=v0.1`, and install using:
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@${VERSION}#egg=ddp
-```
-
-or, install the latest version,
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git#egg=ddp
+pip install git+https://github.com/datapartnership/devdatapartnership.git
 ```
 
 ## Contributing
@@ -134,7 +122,7 @@ git pull --recurse-submodules
 
 ### Pushing
 
-As a member of the Development Data Partnership, you will be able to share and contribute to a common code base. 
+As a member of the Development Data Partnership, you will be able to share and contribute to a common code base.
 
 For that we use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Basically, each data partner has a home of its own
 
