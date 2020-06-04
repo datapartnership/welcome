@@ -24,7 +24,7 @@ You're done! Go ahead explore the documentation, [install](#installation), and [
 
 ## Resources
 
-### [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
+### [Awesome Development Data Partnership](https://datapartnership.github.io/awesome/)
 
 > A curated list of the Development Data Partnership data goods and derivative works.
 
@@ -49,18 +49,18 @@ Now you are ready to `pip install`! It is strongly recommended that you create a
 
 ### IDB 
 
-If you are from Inter-American Development Bank, install running:
+If you are from the Inter-American Development Bank, install running:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1
 ```
 
 ### IMF
 
-If you are from International Monetary Fund, running using:
+If you are from the International Monetary Fund, running using:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.1
 ```
 
 ### WBG
