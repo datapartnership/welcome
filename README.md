@@ -34,7 +34,7 @@ You're done! Go ahead explore the documentation, [install](#installation), and [
 |:-------------------:|:---------------:|:-------------:|:-------------:|
 | IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership)
+| WBG                 | [Docs](https://docs.partnership.org) | [v0.1](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
 ## Installation
 
