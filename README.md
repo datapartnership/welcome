@@ -43,7 +43,7 @@ The Partnership maintains a Python package that offers partner-specific and gene
 Before installing the package, you will have to:
 
 1. Install **Python 3.6+**
-1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#Can-I-Use-https-Instead?).
+1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#can-i-use-https-instead).
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
