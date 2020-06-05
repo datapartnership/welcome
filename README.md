@@ -47,25 +47,29 @@ Before installing the package, you will have to:
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
-### IDB 
+### Development Data Partner
 
-If you are from the Inter-American Development Bank, install running:
+Now choose the organization you belong to. You will have visilibity to all data partners and documentation your organization have agreements with.
+
+#### IDB 
+
+If you are from the Inter-American Development Bank, install:
 
 ```
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1
 ```
 
-### IMF
+#### IMF
 
-If you are from the International Monetary Fund, running using:
+If you are from the International Monetary Fund, install:
 
 ```
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.1
 ```
 
-### WBG
+#### WBG
 
-If you are from the World Bank Group, running using:
+If you are from the World Bank Group, install:
 
 ```
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git
