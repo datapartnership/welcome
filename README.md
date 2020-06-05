@@ -34,7 +34,7 @@ You're done! Go ahead explore the documentation, [install](#installation), and [
 |:-------------------:|:---------------:|:-------------:|:-------------:|
 | IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | -- | [GitHub](https://github.com/datapartnership/devdatapartnership)
+| WBG                 | [Docs](https://devdatapartnership.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
 ## Installation
 
@@ -43,7 +43,7 @@ The Partnership maintains a Python package that offers partner-specific and gene
 Before installing the package, you will have to:
 
 1. Install **Python 3.6+**
-1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#Can-I-Use-HTTPS-Instead?).
+1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#Can-I-Use-https-Instead?).
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
@@ -72,10 +72,10 @@ pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@
 If you are from the World Bank Group, install:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@v0.1
 ```
 
-### Can I use HTTPS instead?
+### Can I use *https* instead?
 
 We recommend `ssh`. Alternatively, you can change your global settings to use `https` instead.
 
