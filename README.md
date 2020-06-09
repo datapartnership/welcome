@@ -1,17 +1,18 @@
+# Welcome to the Development Data Partnership!
 
 <p align="center">
   <img width="250" height="250" src="images/logo.png">
 </p>
 
-# Welcome to the Development Data Partnership!
 
  > A partnership between international organizations and companies, created to facilitate the use of third-party data in research and international development.
 
 As part of the Development Data Partnership, you are going to have access to:
 
-- code snippets and general tools to get your data analysis up and running
+- general tools and code snippets to get your data analysis up and running
 - a curated list of code examples and data explorations for each data provider
-- a Python package that includes both partner-specific and general helper functions
+- a Python package that includes both partner-specific and general facilitators
+- a command-line toolbox includes both partner-specific and general facilitators
 
 ## Get Started
 
@@ -38,12 +39,12 @@ You're done! Go ahead explore the documentation, [install](#installation), and [
 
 ## Installation
 
-The Partnership maintains a Python package that offers partner-specific and general helper functions.
+The Partnership maintains a Python package that offers partner-specific and general helper functions. Unfortunately, it is not public at the moment, so you will have to be authenticated via GitHub.
 
 Before installing the package, you will have to:
 
 1. Install **Python 3.6+**
-1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [https](#can-i-use-https-instead).
+1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [username/password](#can-i-use-https-instead).
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
@@ -75,16 +76,32 @@ If you are from the World Bank Group, install:
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@v0.1
 ```
 
+### Verifying 
+
+Now you should have **datapartnership** installed on your environment.
+
+```python
+>> import datapartnership
+>> datapartnership.__version__
+0.1.0
+```
+
+See examples on the [documentation](#documentation]).
+
 ### Can I use *https* instead?
 
 We recommend `ssh`. Alternatively, you can change your global settings to use `https` instead.
+
+That way, you will be able to login with your `username` and `password`. If you are using two-factor authentication on GitHUb, you will have to create a [personal token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+
+Now change your global settings,
 
 ```
 git config --global url."https://github.com/".insteadOf "git@github.com:"
 git config --global credential.helper cache
 ```
 
-Use `git+https://github.com/` instead of `git+ssh://git@github.com/`. For example,
+Finally, while installing, use `git+https://github.com/` instead of `git+ssh://git@github.com/`. For example,
 
 ```
 pip install git+https://github.com/datapartnership/devdatapartnership.git
