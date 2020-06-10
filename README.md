@@ -21,7 +21,7 @@ Probably you are looking where to start, so if:
 - You have an [account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fjoin&source=header) on GitHub.
 - You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, [drop us a line](mailto:datapartnership@worldbank.org).
 
-You're done! Go ahead explore the documentation, [install](#installation), and [contribute](#contributing)!
+You're done! Go ahead explore the [documentation](#documentation) or [install](#installation) and [contribute](#contributing)!
 
 ## Resources
 
@@ -113,7 +113,7 @@ Our documentation follows the [literate programming](https://en.wikipedia.org/wi
 
 > Literate programming is a programming paradigm introduced by Donald Knuth in which a computer program is given an explanation of its logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which compilable source code can be generated. [Wikipedia](https://en.wikipedia.org/wiki/Literate_programming) 
 
-It requires [nbdev](https://github.com/fastai/nbdev).
+It requires [nbdev](https://github.com/fastai/nbdev). Check [CONTRIBUTING](CONTRIBUTING.md).
 
 ### Cloning
 
