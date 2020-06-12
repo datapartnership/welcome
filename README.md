@@ -25,7 +25,7 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 ## Resources
 
-### [Awesome Development Data Partnership](https://datapartnership.github.io/awesome/)
+### [Awesome Development Data Partnership](https://datapartnership.github.io/awesome-ddp/)
 
 > A curated list of the Development Data Partnership data goods and derivative works.
 
@@ -33,9 +33,9 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
-| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
-| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.1](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://docs.datapartnership.org) | [v0.1](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.1) | [GitHub](https://github.com/datapartnership/devdatapartnership)
+| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
+| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
+| WBG                 | [Docs](https://docs.datapartnership.org) | [v0.2](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
 ## Installation
 
@@ -57,7 +57,7 @@ Now choose the organization you belong to. You will have visilibity to all data 
 If you are from the Inter-American Development Bank, install:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.1
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.2
 ```
 
 #### IMF
@@ -65,7 +65,7 @@ pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@
 If you are from the International Monetary Fund, install:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.1
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.2
 ```
 
 #### WBG
@@ -73,7 +73,7 @@ pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@
 If you are from the World Bank Group, install:
 
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@v0.1
+pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@v0.2
 ```
 
 ### Verifying 
@@ -83,10 +83,10 @@ Now you should have **datapartnership** installed on your environment.
 ```python
 >> import datapartnership
 >> datapartnership.__version__
-0.1.0
+0.2.0
 ```
 
-See examples on the [documentation](#documentation]).
+See examples on the [documentation](#documentation).
 
 ### Can I use *https* instead?
 
