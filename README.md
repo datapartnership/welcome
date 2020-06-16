@@ -19,7 +19,7 @@ As part of the Development Data Partnership, you are going to have access to:
 Probably you are looking where to start, so if:
 
 - You have an [account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fjoin&source=header) on GitHub.
-- You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, [drop us a line](mailto:datapartnership@worldbank.org).
+- You are a member of the Partnership's [organization](https://github.com/orgs/datapartnership/people) on GitHub. If not, [drop us a line](https://forms.office.com/Pages/ResponsePage.aspx?id=wP6iMWsmZ0y1bieW2PWcNhuvidJGUV9CkFxv6crNd1NUMjdRVVcyTzFJSjBWT0s4NDZCMDdKRlU2TC4u).
 
 You're done! Go ahead explore the [documentation](#documentation) or [install](#installation) and [contribute](#contributing)!
 
