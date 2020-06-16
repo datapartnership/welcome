@@ -29,7 +29,8 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 > A curated list of the Development Data Partnership data goods and derivative works.
 
-### Documentation
+### Links to All Data Documentation
+> Documentation respositories curated for each Development Partner, based on their signed license agreements. 
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
