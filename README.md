@@ -7,12 +7,11 @@
 
  > A partnership between international organizations and companies, created to facilitate the use of third-party data in research and international development.
 
-As part of the Development Data Partnership, you are going to have access to:
+As part of the Development Data Partnership, members have access to:
 
-- general tools and code snippets to get your data analysis up and running
-- a curated list of code examples and data explorations for each data provider
-- a Python package that includes both partner-specific and general facilitators
-- a command-line toolbox includes both partner-specific and general facilitators
+- Tools and snippets to get your data analysis up and running.
+- A Python package that includes both partner-specific and general facilitators.
+- A command-line toolbox that includes both partner-specific and general facilitators.
 
 ## Get Started
 
@@ -29,8 +28,12 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 > A curated list of the Development Data Partnership data goods and derivative works.
 
-### Links to All Data Documentation
-> Documentation respositories curated for each Development Partner, based on their signed license agreements. 
+### Documentation
+
+> Data documentation repositories curated for each Development Partner, based on their signed license agreements. 
+
+
+Links to All Data Documentation:
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
