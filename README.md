@@ -43,12 +43,14 @@ Links to All Data Documentation:
 
 ## Installation
 
-The Partnership maintains a Python package that offers partner-specific and general helper functions. Unfortunately, it is not public at the moment, so you will have to be authenticated via GitHub.
+The Partnership maintains a Python package that offers partner-specific and general helper functions.
 
 Before installing the package, you will have to:
 
 1. Install **Python 3.6+**
 1. Set up [GitHub with ssh](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Alternatively, see [username/password](#can-i-use-https-instead).
+
+**Unfortunately, the package not public, so you will have to be authenticated via GitHub.**
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
