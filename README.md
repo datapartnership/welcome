@@ -40,7 +40,7 @@ Links to All Data Documentation:
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
 | WBG                 | [Docs](https://docs.datapartnership.org) | [v0.2](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
-## Data Partners
+### Data Partners
 
 | Data Partner       |       | WBG        | IDB        | IMF        |
 |:------------------:|:-----:|:----------:|:----------:|:----------:|
