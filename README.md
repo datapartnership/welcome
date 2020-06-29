@@ -32,7 +32,6 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 > Data documentation repositories curated for each Development Partner, based on their signed license agreements. 
 
-
 Links to All Data Documentation:
 
 | Development Partner | Documentation   | Package       | Repository    |
@@ -40,6 +39,36 @@ Links to All Data Documentation:
 | IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
 | WBG                 | [Docs](https://docs.datapartnership.org) | [v0.2](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership)
+
+## Data Partners
+
+| Data Partner       |       | WBG        | IDB        | IMF        |
+|:------------------:|:-----:|:----------:|:----------:|:----------:|
+| Carto              |       |:white_check_mark:|||
+| ClimaCell          |       |:white_check_mark:|||
+| Cuebiq             |       |:white_check_mark:|||
+| ESA                |       |:white_check_mark:|||
+| ESRI               |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Facebook           |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Google             |       |:white_check_mark:|||
+| Grab               |       |:white_check_mark:|||
+| GSMA               |       |:white_check_mark:|||
+| Indigo             |       |:white_check_mark:|||
+| InLoco             |       ||:white_check_mark:||
+| LinkedIn           |       |:white_check_mark:|||
+| Mapbox             |       |:white_check_mark:|||
+| Mapillary          |       |:white_check_mark:|||
+| Mobike             |       |:white_check_mark:|||
+| Orbital Insight    |       |:white_check_mark:|||
+| Premise            |       |:white_check_mark:|:white_check_mark:||
+| SafeGraph          |       |:white_check_mark:||:white_check_mark:|
+| Twitter            |       |:white_check_mark:|||
+| Uber               |       |:white_check_mark:|||
+| Unacast            |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Veraset            |       |:white_check_mark:|:white_check_mark:||
+| Waze               |       |:white_check_mark:|||
+| WhereIsMyTransport |       |:white_check_mark:|||
+| X-Mode             |       |:white_check_mark:|||
 
 ## Installation
 
