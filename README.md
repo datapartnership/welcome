@@ -30,9 +30,11 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 ### Documentation
 
-> Data documentation repositories curated for each Development Partner, based on their signed license agreements. 
+> Data documentation repositories curated for each Development Partner, based on their signed license agreements.
 
 Links to All Data Documentation:
+
+> **Important: The documentation is **NOT** open source, treat it as any proprietary World Bank asset.**
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
@@ -40,35 +42,37 @@ Links to All Data Documentation:
 | IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
 | WBG                 | [Docs](https://docs.datapartnership.org) | [v0.2](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
-### Data Partners
+Links to each Data Partner's Documentation:
 
-| Data Partner       |       | WBG        | IDB        | IMF        |
-|:------------------:|:-----:|:----------:|:----------:|:----------:|
-| Carto              |       |:white_check_mark:|||
-| ClimaCell          |       |:white_check_mark:|||
-| Cuebiq             |       |:white_check_mark:|||
-| ESA                |       |:white_check_mark:|||
-| ESRI               |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Facebook           |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Google             |       |:white_check_mark:|||
-| Grab               |       |:white_check_mark:|||
-| GSMA               |       |:white_check_mark:|||
-| Indigo             |       |:white_check_mark:|||
-| InLoco             |       ||:white_check_mark:||
-| LinkedIn           |       |:white_check_mark:|||
-| Mapbox             |       |:white_check_mark:|||
-| Mapillary          |       |:white_check_mark:|||
-| Mobike             |       |:white_check_mark:|||
-| Orbital Insight    |       |:white_check_mark:|||
-| Premise            |       |:white_check_mark:|:white_check_mark:||
-| SafeGraph          |       |:white_check_mark:||:white_check_mark:|
-| Twitter            |       |:white_check_mark:|||
-| Uber               |       |:white_check_mark:|||
-| Unacast            |       |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Veraset            |       |:white_check_mark:|:white_check_mark:||
-| Waze               |       |:white_check_mark:|||
-| WhereIsMyTransport |       |:white_check_mark:|||
-| X-Mode             |       |:white_check_mark:|||
+> **Important: The documentation is **NOT** open source, treat it as any proprietary World Bank asset.**
+
+| Data Partner       | Repository   | WBG        | IDB        | IMF        |
+|:------------------:|:------------:|:----------:|:----------:|:----------:|
+| Carto              | [Examples](https://github.com/datapartnership/ddp-docs-carto)      |:white_check_mark:|||
+| ClimaCell          | [Examples](https://github.com/datapartnership/ddp-docs-climacell)      |:white_check_mark:|||
+| Cuebiq             | [Examples](https://github.com/datapartnership/ddp-docs-cuebiq)      |:white_check_mark:|||
+| ESA                | [Examples](https://github.com/datapartnership/ddp-docs-esa)      |:white_check_mark:|||
+| ESRI               | [Examples](https://github.com/datapartnership/ddp-docs-esri)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Facebook           | [Examples](https://github.com/datapartnership/ddp-docs-facebook)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Google             | [Examples](https://github.com/datapartnership/ddp-docs-google)      |:white_check_mark:|||
+| Grab               | [Examples](https://github.com/datapartnership/ddp-docs-grab)      |:white_check_mark:|||
+| GSMA               | [Examples](https://github.com/datapartnership/ddp-docs-gsma)      |:white_check_mark:|||
+| Indigo             | [Examples](https://github.com/datapartnership/ddp-docs-indigo)      |:white_check_mark:|||
+| InLoco             | Examples      ||:white_check_mark:||
+| LinkedIn           | [Examples](https://github.com/datapartnership/ddp-docs-linkedin)      |:white_check_mark:|||
+| Mapbox             | [Examples](https://github.com/datapartnership/ddp-docs-mapbox)      |:white_check_mark:|||
+| Mapillary          | [Examples](https://github.com/datapartnership/ddp-docs-mapillary)      |:white_check_mark:|||
+| Mobike             | [Examples](https://github.com/datapartnership/ddp-docs-mobike)      |:white_check_mark:|||
+| Orbital Insight    | [Examples](https://github.com/datapartnership/ddp-docs-orbitalinsight)      |:white_check_mark:|||
+| Premise            | [Examples](https://github.com/datapartnership/ddp-docs-premise)      |:white_check_mark:|:white_check_mark:||
+| SafeGraph          | [Examples](https://github.com/datapartnership/ddp-docs-safegraph)      |:white_check_mark:||:white_check_mark:|
+| Twitter            | [Examples](https://github.com/datapartnership/ddp-docs-twitter)      |:white_check_mark:|||
+| Uber               | [Examples](https://github.com/datapartnership/ddp-docs-uber)      |:white_check_mark:|||
+| Unacast            | [Examples](https://github.com/datapartnership/ddp-docs-unacast)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| Veraset            | [Examples](https://github.com/datapartnership/ddp-docs-veraset)      |:white_check_mark:|:white_check_mark:||
+| Waze               | [Examples](https://github.com/datapartnership/ddp-docs-waze)      |:white_check_mark:|||
+| WhereIsMyTransport | [Examples](https://github.com/datapartnership/ddp-docs-whereismytransport)      |:white_check_mark:|||
+| X-Mode             | [Examples](https://github.com/datapartnership/ddp-docs-xmode)      |:white_check_mark:|||
 
 ## Installation
 
