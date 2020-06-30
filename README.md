@@ -1,7 +1,7 @@
 # Welcome to the Development Data Partnership!
 
 <p align="center">
-  <img width="250" height="250" src="images/logo.png">
+  <img width="250" height="250" src="https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png">
 </p>
 
 
@@ -34,7 +34,7 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 Links to All Data Documentation:
 
-> **Important: The documentation is **NOT** open source and may not be shared with persons outisde of your organization.**
+> **Important: The documentation may **NOT** be shared with persons outside of your organization.**
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
@@ -44,35 +44,35 @@ Links to All Data Documentation:
 
 Links to each Data Partner's Documentation:
 
-> **Important: The documentation is **NOT** open source and may not be shared with persons outside of your organization.**
+> **Important: The documentation may **NOT** be shared with persons outside of your organization.**
 
 | Data Partner       | Repository   | WBG        | IDB        | IMF        |
 |:------------------:|:------------:|:----------:|:----------:|:----------:|
-| Carto              | [Examples](https://github.com/datapartnership/ddp-docs-carto)      |:white_check_mark:|||
-| ClimaCell          | [Examples](https://github.com/datapartnership/ddp-docs-climacell)      |:white_check_mark:|||
-| Cuebiq             | [Examples](https://github.com/datapartnership/ddp-docs-cuebiq)      |:white_check_mark:|||
-| ESA                | [Examples](https://github.com/datapartnership/ddp-docs-esa)      |:white_check_mark:|||
-| ESRI               | [Examples](https://github.com/datapartnership/ddp-docs-esri)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Facebook           | [Examples](https://github.com/datapartnership/ddp-docs-facebook)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Google             | [Examples](https://github.com/datapartnership/ddp-docs-google)      |:white_check_mark:|||
-| Grab               | [Examples](https://github.com/datapartnership/ddp-docs-grab)      |:white_check_mark:|||
-| GSMA               | [Examples](https://github.com/datapartnership/ddp-docs-gsma)      |:white_check_mark:|||
-| Indigo             | [Examples](https://github.com/datapartnership/ddp-docs-indigo)      |:white_check_mark:|||
-| InLoco             | Examples      ||:white_check_mark:||
-| LinkedIn           | [Examples](https://github.com/datapartnership/ddp-docs-linkedin)      |:white_check_mark:|||
-| Mapbox             | [Examples](https://github.com/datapartnership/ddp-docs-mapbox)      |:white_check_mark:|||
-| Mapillary          | [Examples](https://github.com/datapartnership/ddp-docs-mapillary)      |:white_check_mark:|||
-| Mobike             | [Examples](https://github.com/datapartnership/ddp-docs-mobike)      |:white_check_mark:|||
-| Orbital Insight    | [Examples](https://github.com/datapartnership/ddp-docs-orbitalinsight)      |:white_check_mark:|||
-| Premise            | [Examples](https://github.com/datapartnership/ddp-docs-premise)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| SafeGraph          | [Examples](https://github.com/datapartnership/ddp-docs-safegraph)      |:white_check_mark:||:white_check_mark:|
-| Twitter            | [Examples](https://github.com/datapartnership/ddp-docs-twitter)      |:white_check_mark:|||
-| Uber               | [Examples](https://github.com/datapartnership/ddp-docs-uber)      |:white_check_mark:|||
-| Unacast            | [Examples](https://github.com/datapartnership/ddp-docs-unacast)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| Veraset            | [Examples](https://github.com/datapartnership/ddp-docs-veraset)      |:white_check_mark:|:white_check_mark:||
-| Waze               | [Examples](https://github.com/datapartnership/ddp-docs-waze)      |:white_check_mark:|||
-| WhereIsMyTransport | [Examples](https://github.com/datapartnership/ddp-docs-whereismytransport)      |:white_check_mark:|||
-| X-Mode             | [Examples](https://github.com/datapartnership/ddp-docs-xmode)      |:white_check_mark:|||
+| Carto              | [Examples](https://github.com/datapartnership/ddp-docs-carto)      |✅|||
+| ClimaCell          | [Examples](https://github.com/datapartnership/ddp-docs-climacell)      |✅|||
+| Cuebiq             | [Examples](https://github.com/datapartnership/ddp-docs-cuebiq)      |✅|||
+| ESA                | [Examples](https://github.com/datapartnership/ddp-docs-esa)      |✅|||
+| ESRI               | [Examples](https://github.com/datapartnership/ddp-docs-esri)      |✅|✅|✅|
+| Facebook           | [Examples](https://github.com/datapartnership/ddp-docs-facebook)      |✅|✅|✅|
+| Google             | [Examples](https://github.com/datapartnership/ddp-docs-google)      |✅|||
+| Grab               | [Examples](https://github.com/datapartnership/ddp-docs-grab)      |✅|||
+| GSMA               | [Examples](https://github.com/datapartnership/ddp-docs-gsma)      |✅|||
+| Indigo             | [Examples](https://github.com/datapartnership/ddp-docs-indigo)      |✅|||
+| InLoco             | Examples      ||✅||
+| LinkedIn           | [Examples](https://github.com/datapartnership/ddp-docs-linkedin)      |✅|||
+| Mapbox             | [Examples](https://github.com/datapartnership/ddp-docs-mapbox)      |✅|||
+| Mapillary          | [Examples](https://github.com/datapartnership/ddp-docs-mapillary)      |✅|||
+| Mobike             | [Examples](https://github.com/datapartnership/ddp-docs-mobike)      |✅|||
+| Orbital Insight    | [Examples](https://github.com/datapartnership/ddp-docs-orbitalinsight)      |✅|||
+| Premise            | [Examples](https://github.com/datapartnership/ddp-docs-premise)      |✅|✅|✅|
+| SafeGraph          | [Examples](https://github.com/datapartnership/ddp-docs-safegraph)      |✅||✅|
+| Twitter            | [Examples](https://github.com/datapartnership/ddp-docs-twitter)      |✅|||
+| Uber               | [Examples](https://github.com/datapartnership/ddp-docs-uber)      |✅|||
+| Unacast            | [Examples](https://github.com/datapartnership/ddp-docs-unacast)      |✅|✅|✅|
+| Veraset            | [Examples](https://github.com/datapartnership/ddp-docs-veraset)      |✅|✅||
+| Waze               | [Examples](https://github.com/datapartnership/ddp-docs-waze)      |✅|||
+| WhereIsMyTransport | [Examples](https://github.com/datapartnership/ddp-docs-whereismytransport)      |✅|||
+| X-Mode             | [Examples](https://github.com/datapartnership/ddp-docs-xmode)      |✅|||
 
 ## Installation
 
@@ -87,11 +87,11 @@ Before installing the package, you will have to:
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
-### Development Data Partner
+**Development Data Partner**
 
 Now choose the organization you belong to. You will have visilibity to all data partners and documentation your organization have agreements with.
 
-#### IDB 
+**IDB**
 
 If you are from the Inter-American Development Bank, install:
 
@@ -99,7 +99,7 @@ If you are from the Inter-American Development Bank, install:
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.2
 ```
 
-#### IMF
+**IMF**
 
 If you are from the International Monetary Fund, install:
 
@@ -107,7 +107,7 @@ If you are from the International Monetary Fund, install:
 pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.2
 ```
 
-#### WBG
+**WBG**
 
 If you are from the World Bank Group, install:
 
@@ -156,23 +156,23 @@ It requires [nbdev](https://github.com/fastai/nbdev). Check [CONTRIBUTING](CONTR
 
 ### Cloning
 
-- IDB 
+**IDB**
 
-    ```sh
-    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-idb.git
-    ```
+```sh
+git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-idb.git
+```
 
-- IMF 
+**IMF** 
 
-    ```sh
-    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-imf.git
-    ```
+```sh
+git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-imf.git
+```
 
-- WBG
+**WBG**
 
-    ```sh
-    git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership.git
-    ```
+```sh
+git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership.git
+```
 
 ### Pulling
 
