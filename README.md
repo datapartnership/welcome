@@ -34,7 +34,7 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 Links to All Data Documentation:
 
-> **Important: The documentation is **NOT** open source and may not be shared with third parties.**
+> **Important: The documentation is **NOT** open source and may not be shared with persons outisde of your organization.**
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
@@ -44,7 +44,7 @@ Links to All Data Documentation:
 
 Links to each Data Partner's Documentation:
 
-> **Important: The documentation is **NOT** open source and may not be shared with third parties.**
+> **Important: The documentation is **NOT** open source and may not be shared with persons outside of your organization.**
 
 | Data Partner       | Repository   | WBG        | IDB        | IMF        |
 |:------------------:|:------------:|:----------:|:----------:|:----------:|
