@@ -1,0 +1,14 @@
+site_name: Development Data Partnership
+site_url: https://datapartnership.org
+site_description: A curated list of the Development Data Partnership data good and derivative works
+site_author: datapartnership
+repo_name: datapartnership/welcome
+repo_url: https://github.com/datapartnership/welcome
+theme:
+  name: material
+  palette:
+    accent: red
+extra_css:
+    - css/extra.css
+nav:
+  - "A partnership between international organizations and companies" : "index.md"
