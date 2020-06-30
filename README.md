@@ -64,7 +64,7 @@ Links to each Data Partner's Documentation:
 | Mapillary          | [Examples](https://github.com/datapartnership/ddp-docs-mapillary)      |:white_check_mark:|||
 | Mobike             | [Examples](https://github.com/datapartnership/ddp-docs-mobike)      |:white_check_mark:|||
 | Orbital Insight    | [Examples](https://github.com/datapartnership/ddp-docs-orbitalinsight)      |:white_check_mark:|||
-| Premise            | [Examples](https://github.com/datapartnership/ddp-docs-premise)      |:white_check_mark:|:white_check_mark:||
+| Premise            | [Examples](https://github.com/datapartnership/ddp-docs-premise)      |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 | SafeGraph          | [Examples](https://github.com/datapartnership/ddp-docs-safegraph)      |:white_check_mark:||:white_check_mark:|
 | Twitter            | [Examples](https://github.com/datapartnership/ddp-docs-twitter)      |:white_check_mark:|||
 | Uber               | [Examples](https://github.com/datapartnership/ddp-docs-uber)      |:white_check_mark:|||
