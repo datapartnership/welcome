@@ -34,7 +34,7 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 
 Links to All Data Documentation:
 
-> **Important: The documentation is **NOT** open source, treat it as any proprietary World Bank asset.**
+> **Important: The documentation is **NOT** open source and may not be shared with third parties.**
 
 | Development Partner | Documentation   | Package       | Repository    |
 |:-------------------:|:---------------:|:-------------:|:-------------:|
@@ -44,7 +44,7 @@ Links to All Data Documentation:
 
 Links to each Data Partner's Documentation:
 
-> **Important: The documentation is **NOT** open source, treat it as any proprietary World Bank asset.**
+> **Important: The documentation is **NOT** open source and may not be shared with third parties.**
 
 | Data Partner       | Repository   | WBG        | IDB        | IMF        |
 |:------------------:|:------------:|:----------:|:----------:|:----------:|
