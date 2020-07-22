@@ -4,7 +4,6 @@
   <img width="250" height="250" src="https://raw.githubusercontent.com/datapartnership/welcome/master/images/logo.png">
 </p>
 
-
  > A partnership between international organizations and companies, created to facilitate the use of third-party data in research and international development.
 
 As part of the Development Data Partnership, members have access to:
@@ -12,6 +11,23 @@ As part of the Development Data Partnership, members have access to:
 - Tools and snippets to get your data analysis up and running.
 - A Python package that includes both partner-specific and general facilitators.
 - A command-line toolbox that includes both partner-specific and general facilitators.
+
+## Frequently Asked Questions
+
+- **Looking for learning more about the Data Partership and how it works?**
+  Go to our [page](https://datapartnership.org/).
+
+- **Looking for available opportunities?**
+
+    Go to the [Data Partnership Portal](https://beta.datapartnership.org).
+
+- **Looking for where to submit your project proposal?**
+
+    Go to the [Data Partnership Portal](https://beta.datapartnership.org).
+
+- **Already had your proposal approved on the Portal?**
+
+    Go to the [Data Partnership Board](https://github.com/orgs/datapartnership/projects/1) to check the status of your dataset.
 
 ## Get Started
 
