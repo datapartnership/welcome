@@ -6,29 +6,6 @@
 
  > A partnership between international organizations and companies, created to facilitate the use of third-party data in research and international development.
 
-As part of the Development Data Partnership, members have access to:
-
-- Tools and snippets to get your data analysis up and running.
-- A Python package that includes both partner-specific and general facilitators.
-- A command-line toolbox that includes both partner-specific and general facilitators.
-
-## Frequently Asked Questions
-
-- **Looking for learning more about the Data Partership and how it works?**
-  Go to our [page](https://datapartnership.org/).
-
-- **Looking for available opportunities?**
-
-    Go to the [Data Partnership Portal](https://beta.datapartnership.org).
-
-- **Looking for where to submit your project proposal?**
-
-    Go to the [Data Partnership Portal](https://beta.datapartnership.org).
-
-- **Already had your proposal approved on the Portal?**
-
-    Go to the [Data Partnership Board](https://github.com/orgs/datapartnership/projects/1) to check the status of your dataset.
-
 ## Get Started
 
 Probably you are looking where to start, so if:
@@ -47,16 +24,6 @@ You're done! Go ahead explore the [documentation](#documentation) or [install](#
 ### Documentation
 
 > Data documentation repositories curated for each Development Partner, based on their signed license agreements.
-
-Links to All Data Documentation:
-
-> **Important: The documentation may **NOT** be shared with persons outside of your organization.**
-
-| Development Partner | Documentation   | Package       | Repository    |
-|:-------------------:|:---------------:|:-------------:|:-------------:|
-| IDB                 | [Docs](https://devdatapartnership-idb.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-idb/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-idb) |
-| IMF                 | [Docs](https://devdatapartnership-imf.herokuapp.com/) | [v0.2](https://github.com/datapartnership/devdatapartnership-imf/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership-imf) |
-| WBG                 | [Docs](https://docs.datapartnership.org) | [v0.2](https://github.com/datapartnership/devdatapartnership/releases/tag/v0.2) | [GitHub](https://github.com/datapartnership/devdatapartnership)
 
 Links to each Data Partner's Documentation:
 
@@ -103,32 +70,8 @@ Before installing the package, you will have to:
 
 Now you are ready to `pip install`! It is strongly recommended that you create a [virtual environment](https://docs.python-guide.org/dev/virtualenvs/).
 
-**Development Data Partner**
-
-Now choose the organization you belong to. You will have visilibity to all data partners and documentation your organization have agreements with.
-
-**IDB**
-
-If you are from the Inter-American Development Bank, install:
-
 ```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-idb.git@v0.2
-```
-
-**IMF**
-
-If you are from the International Monetary Fund, install:
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership-imf.git@v0.2
-```
-
-**WBG**
-
-If you are from the World Bank Group, install:
-
-```
-pip install git+ssh://git@github.com/datapartnership/devdatapartnership.git@v0.2
+pip install git+ssh://git@github.com/datapartnership/datapartnership.git@v0.2
 ```
 
 ### Verifying 
@@ -159,7 +102,7 @@ git config --global credential.helper cache
 Finally, while installing, use `git+https://github.com/` instead of `git+ssh://git@github.com/`. For example,
 
 ```
-pip install git+https://github.com/datapartnership/devdatapartnership.git
+pip install git+https://github.com/datapartnership/datapartnership.git
 ```
 
 ## Contributing
@@ -169,61 +112,3 @@ Our documentation follows the [literate programming](https://en.wikipedia.org/wi
 > Literate programming is a programming paradigm introduced by Donald Knuth in which a computer program is given an explanation of its logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which compilable source code can be generated. [Wikipedia](https://en.wikipedia.org/wiki/Literate_programming) 
 
 It requires [nbdev](https://github.com/fastai/nbdev). Check [CONTRIBUTING](CONTRIBUTING.md).
-
-### Cloning
-
-**IDB**
-
-```sh
-git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-idb.git
-```
-
-**IMF** 
-
-```sh
-git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership-imf.git
-```
-
-**WBG**
-
-```sh
-git clone --recurse-submodules git@github.com:datapartnership/devdatapartnership.git
-```
-
-### Pulling
-
-```sh
-git pull --recurse-submodules
-```
-
-### Pushing
-
-As a member of the Development Data Partnership, you will be able to share and contribute to a common code base.
-
-For that we use [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Basically, each data partner has a home of its own
-
-```sh
-.
-└── notebooks
-    ├── core
-    └── facebook
-```
-
-You can contribute as you would normally do by going to any subfolder/submodule,
-
-```sh
-# contribute to facebook
-cd notebooks/facebook
-
-# create your feature branch
-git checkout -b <my-awesome-branch>
-```
-
-Make your contributions, adding and commiting and whenever you are ready,
-
-```sh
-# push your contributions
-git push
-```
-
-As a final step, open a pull request on corresponding data partner repository (e.g., [Facebook](https://github.com/datapartnership/ddp-docs-facebook/pulls)).
