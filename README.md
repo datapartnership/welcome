@@ -17,7 +17,7 @@ You're done! Go ahead explore the [documentation](#documentation).
 
 ## Resources
 
-### [Awesome Data Partnership](https://datapartnership.github.io/awesome-ddp/)
+### [Awesome Data Partnership](https://datapartnership.github.io/awesome-datapartnership/)
 
 > A curated list of the Development Data Partnership public data goods and derivative works.
 
